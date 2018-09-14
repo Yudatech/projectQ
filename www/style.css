@@ -1,0 +1,150 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#sidebar {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #37474F;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#sidebar header {
+    background-color: #263238;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+}
+
+#sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+#sidebar header a:hover {
+    color: #fff;
+}
+
+
+
+#sidebar .wraper a {
+    display: block;
+    background: none;
+    border-bottom: 1px solid #455A64;
+    color: #CFD8DC;
+    font-size: 14px;
+    padding: 16px 24px;
+}
+
+#sidebar .wraper a:hover {
+    background: none;
+    color: #ECEFF1;
+}
+
+#sidebar .wraper a i {
+    margin-right: 16px;
+}
+
+#bottom-nav {
+    position: absolute;
+    height: 100%;
+    /* bottom:-550px; */
+}
+
+.disabled {
+    color: #657A84 !important;
+}
+
+.on-off {
+    display: none;
+}
+
+.up-down {
+    position: absolute;
+
+    bottom: 400px;
+
+}
+
+.up-down ul {
+    padding-left: 0px;
+    background-color: white;
+    margin-top:0;
+}
+
+.up-down ul hr{
+    padding:0;
+}
+
+.up-down a {
+    display: block;
+    position: relative;
+    background-color: white !important;
+    border: none;
+    font-size: 14px;
+    padding: 12px 24px;
+    width: 250px;
+    color:#455A64;
+
+}
+
+.up-down h4{
+    padding:15px 20px;
+    background-color:white;
+    margin-bottom:0;
+    color:263238;
+    width:250px;
+}
+
+#divide{
+    border-bottom:1px #657A84 solid;
+}
+
+/* #nav-footer {
+    background-color: white;
+    width: 250px;
+    margin-bottom:0px;
+    color:black !important;
+    font-size:16px;
+    /* padding:15px 28px; */
+
+
+
+#nav-footer ul {
+    width: 100%;
+}
+
+.to-bottom {
+    position: absolute;
+    bottom: 80px;
+
+}
+
+.to-bottom a {
+    font-size: 12px !important;
+}
+
+.footer-bottom {
+    position: absolute;
+    bottom: 5px;
+}
+
+.footer-bottom{
+    background-color: white;
+    width: 250px;
+    margin-bottom:0px;
+    color:#263238;
+    font-size:16px;
+    padding:6px 20px;
+}
