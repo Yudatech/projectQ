@@ -12,7 +12,7 @@ body {
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #37474F;
+    background: rgb(13, 118, 170);
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -22,7 +22,7 @@ body {
 #sidebar header {
     background-color: #263238;
     font-size: 20px;
-    line-height: 52px;
+    line-height: 72px;
     text-align: center;
 }
 
@@ -43,8 +43,12 @@ body {
     background: none;
     border-bottom: 1px solid #455A64;
     color: #CFD8DC;
-    font-size: 14px;
+    font-size: 16px;
     padding: 16px 24px;
+}
+
+#sidebar .wraper ul{
+    padding-left:20px;
 }
 
 #sidebar .wraper a:hover {
@@ -63,7 +67,7 @@ body {
 }
 
 .disabled {
-    color: #657A84 !important;
+    color: #A5BAC4 !important;
 }
 
 .on-off {
@@ -73,7 +77,8 @@ body {
 .up-down {
     position: absolute;
 
-    bottom: 400px;
+    bottom: 450px;
+    
 
 }
 
@@ -99,12 +104,20 @@ body {
 
 }
 
+.up-down a i{
+    margin-right:10px;
+    color:rgb(73,178,10)
+}
+
+
 .up-down h4{
-    padding:15px 20px;
+    padding:35px 20px;
     background-color:white;
     margin-bottom:0;
     color:263238;
     width:250px;
+    border-bottom: 1px #657A84 solid;
+
 }
 
 #divide{
@@ -122,6 +135,7 @@ body {
 
 
 #nav-footer ul {
+    padding-top:30px;
     width: 100%;
 }
 
@@ -147,4 +161,8 @@ body {
     color:#263238;
     font-size:16px;
     padding:6px 20px;
+}
+
+#last-nav{
+    padding-bottom:30px;
 }
