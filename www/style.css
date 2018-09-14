@@ -2,6 +2,7 @@ body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    margin:0;
 }
 
 #sidebar {
@@ -45,6 +46,7 @@ body {
     color: #CFD8DC;
     font-size: 16px;
     padding: 16px 24px;
+    text-decoration: none;
 }
 
 #sidebar .wraper ul{
@@ -101,12 +103,18 @@ body {
     padding: 12px 24px;
     width: 250px;
     color:#455A64;
+    text-decoration: none;
 
 }
 
+.up-down a:hover{
+    color:#657A84;
+}
+
+
 .up-down a i{
     margin-right:10px;
-    color:rgb(73,178,10)
+    color:rgb(73,148,50)
 }
 
 
@@ -142,11 +150,11 @@ body {
 .to-bottom {
     position: absolute;
     bottom: 80px;
-
+    width:100%;
 }
 
 .to-bottom a {
-    font-size: 12px !important;
+    font-size: 14px !important;
 }
 
 .footer-bottom {
@@ -156,7 +164,7 @@ body {
 
 .footer-bottom{
     background-color: white;
-    width: 250px;
+    /* width: 250px; */
     margin-bottom:0px;
     color:#263238;
     font-size:16px;
@@ -166,3 +174,11 @@ body {
 #last-nav{
     padding-bottom:30px;
 }
+
+#content {
+    margin-left: 242px;
+    position: relative;; 
+    margin-right: 0;
+    background-color:lightgray;
+    height:100%;
+  }
