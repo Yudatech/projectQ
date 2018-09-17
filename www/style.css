@@ -21,10 +21,13 @@ body {
 }
 
 #sidebar header {
-    background-color: #263238;
+    /* background-color: #263238; */
     font-size: 20px;
     line-height: 72px;
     text-align: center;
+    border-bottom:1px #A5BAC4 solid;
+    padding:20px;
+    color:white;
 }
 
 #sidebar header a {
@@ -42,7 +45,7 @@ body {
 #sidebar .wraper a {
     display: block;
     background: none;
-    border-bottom: 1px solid #455A64;
+    /*border-bottom: 1px solid #455A64;*/
     color: #CFD8DC;
     font-size: 16px;
     padding: 16px 24px;
@@ -182,3 +185,13 @@ body {
     background-color:lightgray;
     height:100%;
   }
+
+  /* horizental nav*/
+
+  #content .navbar li{
+      display:inline-block;
+  }
+
+  /* #content .navbar .navbar-right{
+      float:right;
+  } */
